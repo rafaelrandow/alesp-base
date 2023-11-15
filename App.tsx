@@ -9,10 +9,10 @@ export default function App() {
   return (
     <NativeBaseProvider theme={TEMAS}>
       <StatusBar backgroundColor={TEMAS.colors.blue[800]} />
-      <HStack bg={TEMAS.colors.blue[800]} w="100%" px={1} justifyContent="center" alignItems={"center"}>  
+      <HStack bg={TEMAS.colors.blue[800]} w="100%" px={0} justifyContent="center" alignItems={"center"}>  
       <Image source={Logo} alt="Logo" style={{ width: 66, height: 66, resizeMode: 'contain' }} />
       <Titulo color="white" pr={5} justifyContent="center"  w="66%">Alesp Mobile</Titulo>
-      <Ionicons name="person-circle-outline" color={TEMAS.colors.white} size={32}/> 
+      <Ionicons name="calendar" color={TEMAS.colors.white} size={28}/> 
       {/* <Ionicons name="log-out-outline" color={TEMAS.colors.white} size={32}/>  */}
       </HStack>
       <Rotas />
