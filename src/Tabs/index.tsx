@@ -22,17 +22,17 @@ const screenOptions = {
 const tabs = [
   {
     name: 'Principal',
-    component: Boxter,
+    component: Principal,
     icon: 'home'
   },
   {
     name: 'Cartilha',
-    component: Eventos,
+    component: Boxter,
     icon: 'book'
   },
   {
     name: 'QRCode',
-    component: Cracha,
+    component: Eventos,
     icon: 'qr-code'
   },
   {
