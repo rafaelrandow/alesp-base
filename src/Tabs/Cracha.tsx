@@ -3,7 +3,6 @@ import Cracha from '../assets/cracha.png';
 import { Botao } from "../componentes/Botao";
 import { EntradaTexto } from "../componentes/EntradaTexto";
 import { Titulo } from "../componentes/Titulo";
-import { depoimentos } from "../utils/mock";
 import Logo from '../assets/Logo.png';
 
 export default function Boxter(){

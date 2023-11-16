@@ -3,7 +3,7 @@ import { CardConsulta } from '../componentes/CardConsulta'
 import { Botao } from "../componentes/Botao";
 import { EntradaTexto } from "../componentes/EntradaTexto";
 import { Titulo } from "../componentes/Titulo";
-import { depoimentos } from "../utils/mock";
+import { calendario } from "../utils/mock";
 
 
 export default function Eventos(){
@@ -35,11 +35,11 @@ export default function Eventos(){
          
          
           {
-            depoimentos.map(depoimento => (
-              <Box key={depoimento.id} w="100%" borderRadius="lg" p={3}>
-                <Text color="gray.500" fontSize="lg" fontWeight="bold" alignSelf="center" mt="2" mb="5">{depoimento.titulo}</Text>
+            calendario.map(evento => (
+              <Box key={evento.id} w="100%" borderRadius="lg" p={3}>
+                <Text color="gray.500" fontSize="lg" fontWeight="bold" alignSelf="center" mt="2" mb="5">{evento.titulo}</Text>
                 <Text color="gray.300" fontSize="md" textAlign="justify">
-                  {depoimento.text}
+                  {evento.text}
                 </Text>
               </Box>
             ))

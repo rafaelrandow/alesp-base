@@ -1,4 +1,4 @@
-const depoimentos = [
+const calendario = [
   {
     id: 1,
     titulo: 'segunda-feira, 13 de novembro',
@@ -16,4 +16,4 @@ const depoimentos = [
   }
 ]
 
-export { depoimentos }
+export { calendario }
