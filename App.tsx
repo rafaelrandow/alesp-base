@@ -1,6 +1,6 @@
-import { NativeBaseProvider, StatusBar, HStack, Image } from 'native-base';
-import { Titulo } from "./src/componentes/Titulo";
+import { NativeBaseProvider, StatusBar, HStack, Image, Text } from 'native-base';
 import { TEMAS } from './src/estilos/temas';
+import { Botao } from './src/componentes/Botao';
 import Logo from './src/assets/alesp.png';
 import Rotas from './src/Rotas';
 import Ionicons from 'react-native-vector-icons/Ionicons'
@@ -26,11 +26,14 @@ export default function App() {
       <HStack bg={TEMAS.colors.blue[800]} w="100%" px={5} alignItems={"center"}>  
       <NavigationContainer >
       <Image source={Logo} alt="Logo" style={{ width: 70, height: 70, resizeMode: 'contain' }} />
-      <Titulo color="white" pr={10} w="280">Alesp Mobile</Titulo>      
+      <Text 
+        color="white" pr={10} w="75%"  fontSize="lg"
+        fontWeight="bold"
+        textAlign="center">Alesp Mobile</Text>      
       <Tab.Navigator screenOptions={screenOptions}>
         <Tab.Screen 
           name='notification' 
-          component={Titulo}
+          component={Botao}
           options={{
             tabBarBadge: numNotifica,
             headerShown: false,

@@ -11,7 +11,7 @@ export default function Principal(){
 
         <Titulo color="blue.500">Informações pessoais</Titulo>
         <Titulo fontSize="lg" mb={1}>Rafael Randow</Titulo>
-        <Text>12/12/1980</Text>
+        <Text>06/02/1984</Text>
         <Text>São Paulo</Text>
 
         <Divider mt={5} />
