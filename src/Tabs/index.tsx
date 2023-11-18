@@ -31,9 +31,9 @@ const tabs = [
     icon: 'book'
   },
   {
-    name: 'QRCode',
+    name: 'Eventos',
     component: Eventos,
-    icon: 'qr-code'
+    icon: 'calendar'
   },
   {
     name: 'Identificação',
@@ -41,9 +41,9 @@ const tabs = [
     icon: 'finger-print'
   },
   {
-    name: 'Perfil',
+    name: 'QRCode',
     component: Perfil,
-    icon: 'person'
+    icon: 'qr-code'
   },
 ]
 

@@ -25,25 +25,22 @@ export default function App() {
       <StatusBar backgroundColor={TEMAS.colors.blue[800]} />
       <HStack bg={TEMAS.colors.blue[800]} w="100%" px={5} alignItems={"center"}>  
       <NavigationContainer >
-      <Image source={Logo} alt="Logo" style={{ width: 70, height: 70, resizeMode: 'contain' }} />
+      <Image source={Logo} alt="Logo" style={{ width: 66, height: 66, resizeMode: 'contain' }} />
       <Text 
-        color="white" pr={10} w="75%"  fontSize="lg"
+        color="white" pr={5} w="74%"  fontSize="lg"
         fontWeight="bold"
         textAlign="center">Alesp Mobile</Text>      
-      <Tab.Navigator screenOptions={screenOptions}>
+      <Ionicons name="person-circle-outline" color={TEMAS.colors.white} size={32}/> 
+      {/* <Tab.Navigator screenOptions={screenOptions}>
         <Tab.Screen 
           name='notification' 
           component={Botao}
           options={{
-            tabBarBadge: numNotifica,
-            headerShown: false,
-            tabBarShowLabel:false,
             tabBarIcon: () => (
-              <Ionicons name="calendar" color={TEMAS.colors.white} size={24}/> 
-            ),
-          }}
+              ),
+            }}
         />
-      </Tab.Navigator>
+      </Tab.Navigator> */}
       {/* <Ionicons name="log-out-outline" color={TEMAS.colors.white} size={32}/>  */}
       </NavigationContainer>
       </HStack>
