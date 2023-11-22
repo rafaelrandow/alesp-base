@@ -1,18 +1,21 @@
 const calendario = [
   {
     id: 1,
-    titulo: 'segunda-feira, 13 de novembro',
-    text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
+    data: 'segunda-feira, 13 de novembro',
+    titulo: 'RH Online',
+    text: 'Encerramento do Prazo para entrega da Planilha Anual de Férias 2024',
   },
   {
     id: 2,
-    titulo: 'terça-feira, 14 de novembro',
-    text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
+    data: 'terça-feira, 14 de novembro',
+    titulo: 'RH Online',
+    text: 'Abertura do Prazo para Comprovação de Auxilio-Saude e Pre-Escolar (ref.11/2023).',
   },
   {
     id: 3,
-    titulo: 'quarta-feira, 15 de novembro',
-    text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
+    data: 'quarta-feira, 15 de novembro',
+    titulo: 'RH Online',
+    text: 'Encerramento do Prazo para Comprovação de Auxílio-Saúde (ref.11/2023).'
   }
 ]
 
