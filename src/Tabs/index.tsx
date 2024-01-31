@@ -7,6 +7,7 @@ import Boxter from "./Boxter";
 import Eventos from "./Eventos";
 import Cracha from "./Cracha";
 import Perfil from "./Perfil";
+import QRCode from "./QRCode";
 import Consultas from "./Consultas";
 
 const Tab = createBottomTabNavigator()
@@ -42,7 +43,7 @@ const tabs = [
   },
   {
     name: 'QRCode',
-    component: Perfil,
+    component: QRCode,
     icon: 'qr-code'
   },
 ]

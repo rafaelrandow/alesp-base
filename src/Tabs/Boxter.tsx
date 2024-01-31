@@ -20,7 +20,7 @@ export default function Boxter(){
       },
       bg: "warmGray.50"
     }}>
-        <Modal.Content maxWidth="350" maxH="212">
+        <Modal.Content maxWidth="350" maxH="312">
           <Modal.CloseButton />
           <Modal.Header>Cartilha</Modal.Header>
           <Modal.Body>
