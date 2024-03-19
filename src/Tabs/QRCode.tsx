@@ -16,7 +16,7 @@ export default function QRCode() {
 
         <Divider mt={5} />
 
-        <Titulo color="blue.500" mb={1}>Informações profissionais</Titulo>
+        <Titulo color="blue.500" mb={1}>Tela QRCode</Titulo>
         
         <Titulo fontSize="lg" mb={1}>Cargo atual</Titulo>
         <Text>Técnico Legislativo</Text>
