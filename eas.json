@@ -1,7 +1,6 @@
 {
 "build": {
      "main": {
-      "developmentClient": true,
       "distribution": "internal"
     },
     "development": {
