@@ -10,7 +10,7 @@ export default function Boxter(){
     <ScrollView  bgColor="white">
       <VStack flex={1} alignItems="flex-start" justifyContent="flex-start" px={5} >
         <Titulo color="blue.500" mt={5}>Bem-vindo</Titulo>
-         <Text py={5}>Para continuar, leia a Cartilha Comportamental da Alesp:</Text> 
+         <Text py={5}>Para continuar, leia a Cartilha Comportamental Alesp:</Text> 
         <Box w="100%" borderRadius="lg" px={5} mt={0} shadow="1" borderRightRadius="md" >
           <PDFExample />
           <Button onPress={() => isOpen = true}>Cartilha Comportamental</Button>
