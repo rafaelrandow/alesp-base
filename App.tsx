@@ -16,9 +16,6 @@ const screenOptions = {
   tabBarActiveTintColor: "transparent",  
   tabBarInActiveTintColor: "transparent",
 }
-
-let numNotifica = 3;
-
 export default function App() {
   return (
     <NativeBaseProvider theme={TEMAS}>

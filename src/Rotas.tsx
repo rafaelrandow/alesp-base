@@ -19,7 +19,7 @@ export default function Rotas(){
           name="Cadastro" component={Cadastro} options={{ headerShown: false }}
         />
         <Tab.Screen 
-          name="Tabs" component={Tabs} options={{ headerShown: true }}
+          name="Tabs" component={Tabs} options={{ headerShown: false }}
         />
       </Tab.Navigator>
     </NavigationContainer>
