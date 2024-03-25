@@ -9,10 +9,10 @@
       "channel": "preview",
        "android": {
         "image": "latest"
-      },
-      "ios": {
-        "image": "latest"
-      }
+        },
+        "ios": {
+          "image": "latest"
+        }
     },
     "production": {
       "channel": "production",

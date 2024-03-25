@@ -25,7 +25,7 @@ export default function Login({ navigation }) {
       </Box>
       <Botao onPress={() => navigation.navigate('Tabs')} variant="link">Entrar</Botao>
 
-      <Link href='https://www.alura.com.br' mt={2}>
+      <Link href='https://app.al.sp.gov.br/sspr/public/forgottenpassword' mt={2}>
         Esqueceu sua senha?
       </Link>
 
